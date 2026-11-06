@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Arial, Helvetica, sans-serif">
+  <rect width="800" height="600" fill="#0f141a"/>
+
+  <!-- Móvil -->
+  <rect x="250" y="20" width="300" height="560" rx="42" fill="#05070a" stroke="#3a434e" stroke-width="4"/>
+  <rect x="350" y="38" width="100" height="18" rx="9" fill="#1a2028"/>
+  <text x="400" y="100" fill="#ffffff" font-size="22" font-weight="bold" text-anchor="middle">Hoy</text>
+
+  <!-- Recuperación -->
+  <circle cx="400" cy="205" r="72" fill="none" stroke="#1a232d" stroke-width="16"/>
+  <path d="M400 133 A72 72 0 1 1 336 238" fill="none" stroke="#2fd27a" stroke-width="16" stroke-linecap="round"/>
+  <text x="400" y="215" fill="#ffffff" font-size="38" font-weight="bold" text-anchor="middle">78%</text>
+  <text x="400" y="305" fill="#2fd27a" font-size="18" font-weight="bold" text-anchor="middle">RECUPERACIÓN</text>
+
+  <!-- Tarjetas de esfuerzo y sueño -->
+  <rect x="275" y="330" width="120" height="110" rx="16" fill="#131a22"/>
+  <circle cx="335" cy="375" r="28" fill="none" stroke="#1a232d" stroke-width="8"/>
+  <path d="M335 347 A28 28 0 0 1 361 385" fill="none" stroke="#3aa0ff" stroke-width="8" stroke-linecap="round"/>
+  <text x="335" y="382" fill="#ffffff" font-size="16" font-weight="bold" text-anchor="middle">12,4</text>
+  <text x="335" y="428" fill="#3aa0ff" font-size="14" font-weight="bold" text-anchor="middle">ESFUERZO</text>
+
+  <rect x="405" y="330" width="120" height="110" rx="16" fill="#131a22"/>
+  <circle cx="465" cy="375" r="28" fill="none" stroke="#1a232d" stroke-width="8"/>
+  <path d="M465 347 A28 28 0 1 1 440 362" fill="none" stroke="#b49cff" stroke-width="8" stroke-linecap="round"/>
+  <text x="465" y="382" fill="#ffffff" font-size="16" font-weight="bold" text-anchor="middle">91%</text>
+  <text x="465" y="428" fill="#b49cff" font-size="14" font-weight="bold" text-anchor="middle">SUEÑO</text>
+
+  <!-- Mensaje del coach -->
+  <rect x="275" y="460" width="250" height="80" rx="16" fill="#1a232d"/>
+  <text x="295" y="492" fill="#ffd23f" font-size="15" font-weight="bold">Coach IA</text>
+  <text x="295" y="518" fill="#dfe5ec" font-size="15">Hoy puedes entrenar fuerte.</text>
+</svg>

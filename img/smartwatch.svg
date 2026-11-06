@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Arial, Helvetica, sans-serif">
+  <rect width="800" height="600" fill="#1b2230"/>
+
+  <!-- Correa -->
+  <rect x="300" y="0" width="200" height="600" rx="30" fill="#e0573f"/>
+
+  <!-- Caja del reloj -->
+  <rect x="235" y="130" width="330" height="340" rx="70" fill="#c9ced6"/>
+  <rect x="250" y="145" width="300" height="310" rx="58" fill="#05070a"/>
+  <rect x="565" y="230" width="18" height="60" rx="9" fill="#a7adb6"/>
+
+  <!-- Pantalla: hora -->
+  <text x="400" y="225" fill="#ffffff" font-size="44" font-weight="bold" text-anchor="middle">10:09</text>
+
+  <!-- Notificaciones -->
+  <rect x="275" y="250" width="250" height="56" rx="14" fill="#1e2633"/>
+  <circle cx="303" cy="278" r="14" fill="#2fd27a"/>
+  <text x="328" y="285" fill="#dfe5ec" font-size="18">Mensaje nuevo</text>
+
+  <rect x="275" y="314" width="250" height="56" rx="14" fill="#1e2633"/>
+  <circle cx="303" cy="342" r="14" fill="#3aa0ff"/>
+  <text x="328" y="349" fill="#dfe5ec" font-size="18">¡Muévete!</text>
+
+  <rect x="275" y="378" width="250" height="56" rx="14" fill="#1e2633"/>
+  <circle cx="303" cy="406" r="14" fill="#ffd23f"/>
+  <text x="328" y="413" fill="#dfe5ec" font-size="18">Batería: 18 %</text>
+
+  <!-- Contador de notificaciones -->
+  <circle cx="540" cy="140" r="26" fill="#e33b3b"/>
+  <text x="540" y="149" fill="#ffffff" font-size="24" font-weight="bold" text-anchor="middle">9</text>
+</svg>

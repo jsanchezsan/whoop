@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Arial, Helvetica, sans-serif">
+  <rect width="800" height="600" fill="#e4eef0"/>
+
+  <!-- Pulsera de silicona -->
+  <ellipse cx="400" cy="300" rx="330" ry="150" fill="none" stroke="#2c6e75" stroke-width="70"/>
+  <ellipse cx="400" cy="300" rx="330" ry="150" fill="none" stroke="#3a8b93" stroke-width="40"/>
+
+  <!-- Módulo con pantalla -->
+  <rect x="240" y="380" width="320" height="110" rx="55" fill="#1c1c1c" stroke="#0d0d0d" stroke-width="4"/>
+  <rect x="285" y="405" width="230" height="60" rx="14" fill="#050505"/>
+  <text x="400" y="446" fill="#9bf0ff" font-size="30" font-weight="bold" text-anchor="middle">8.542</text>
+  <text x="400" y="525" fill="#2c6e75" font-size="22" font-weight="bold" text-anchor="middle">pasos de hoy</text>
+
+  <!-- Puntos de progreso -->
+  <circle cx="325" cy="435" r="5" fill="#9bf0ff"/>
+  <circle cx="475" cy="435" r="5" fill="#9bf0ff" opacity="0.4"/>
+</svg>

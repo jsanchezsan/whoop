@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="Arial, Helvetica, sans-serif">
+  <rect width="800" height="420" rx="24" fill="#131a22"/>
+
+  <!-- 1. Pulsera -->
+  <rect x="40" y="150" width="150" height="110" rx="26" fill="#0b0f14" stroke="#2fd27a" stroke-width="3"/>
+  <rect x="70" y="175" width="90" height="60" rx="14" fill="#1d2630"/>
+  <circle cx="95" cy="205" r="6" fill="#2fd27a"/>
+  <circle cx="115" cy="205" r="6" fill="#2fd27a"/>
+  <circle cx="135" cy="205" r="6" fill="#ffd23f"/>
+  <text x="115" y="130" fill="#ffffff" font-size="17" font-weight="bold" text-anchor="middle">1. Sensores</text>
+  <text x="115" y="290" fill="#c5ccd6" font-size="14" text-anchor="middle">Pulso, piel, movimiento</text>
+  <text x="115" y="310" fill="#c5ccd6" font-size="14" text-anchor="middle">26 veces por segundo</text>
+
+  <!-- Flecha 1 -->
+  <path d="M200 205 L260 205" stroke="#2fd27a" stroke-width="3"/>
+  <path d="M258 197 L274 205 L258 213 Z" fill="#2fd27a"/>
+
+  <!-- 2. Algoritmos -->
+  <rect x="285" y="150" width="150" height="110" rx="18" fill="#1d2630" stroke="#2fd27a" stroke-width="2"/>
+  <path d="M305 220 L330 220 L340 185 L355 240 L370 200 L380 220 L415 220" fill="none" stroke="#ffd23f" stroke-width="3"/>
+  <text x="360" y="130" fill="#ffffff" font-size="17" font-weight="bold" text-anchor="middle">2. Algoritmos e IA</text>
+  <text x="360" y="290" fill="#c5ccd6" font-size="14" text-anchor="middle">Calculan recuperación,</text>
+  <text x="360" y="310" fill="#c5ccd6" font-size="14" text-anchor="middle">esfuerzo y sueño</text>
+
+  <!-- Flecha 2 -->
+  <path d="M445 205 L505 205" stroke="#2fd27a" stroke-width="3"/>
+  <path d="M503 197 L519 205 L503 213 Z" fill="#2fd27a"/>
+
+  <!-- 3. Respuesta: móvil -->
+  <rect x="535" y="110" width="100" height="190" rx="18" fill="#0b0f14" stroke="#4a5563" stroke-width="2"/>
+  <circle cx="585" cy="175" r="32" fill="none" stroke="#1d2630" stroke-width="10"/>
+  <path d="M585 143 A32 32 0 1 1 556 190" fill="none" stroke="#2fd27a" stroke-width="10"/>
+  <text x="585" y="181" fill="#ffffff" font-size="17" font-weight="bold" text-anchor="middle">78%</text>
+  <rect x="553" y="228" width="64" height="10" rx="5" fill="#1d2630"/>
+  <rect x="553" y="248" width="48" height="10" rx="5" fill="#1d2630"/>
+
+  <!-- 3. Respuesta: vibración -->
+  <rect x="665" y="170" width="100" height="70" rx="20" fill="#0b0f14" stroke="#ffd23f" stroke-width="3"/>
+  <path d="M655 185 Q648 205 655 225" fill="none" stroke="#ffd23f" stroke-width="3"/>
+  <path d="M775 185 Q782 205 775 225" fill="none" stroke="#ffd23f" stroke-width="3"/>
+  <text x="715" y="210" fill="#ffd23f" font-size="15" font-weight="bold" text-anchor="middle">bzzz</text>
+
+  <text x="650" y="80" fill="#ffffff" font-size="17" font-weight="bold" text-anchor="middle">3. Respuesta</text>
+  <text x="585" y="330" fill="#c5ccd6" font-size="14" text-anchor="middle">App y coach IA</text>
+  <text x="715" y="330" fill="#c5ccd6" font-size="14" text-anchor="middle">Vibración</text>
+
+  <text x="400" y="385" fill="#8a96a6" font-size="14" text-anchor="middle">Sin pantalla ni botones: el usuario no tiene que hacer nada para que el sistema funcione</text>
+</svg>
